@@ -1,6 +1,6 @@
 write up ### JPEG File
 
-The (image)[tktk-892009a0993d079214efa167cda2e7afc85e6b9cb38588cba9dab23eb6eb3d46] is of a grey rectangle.  As the image opens withot errors and doesnt look corrupt it seems likely that it is a data section not dispalying.
+The [image](tktk-892009a0993d079214efa167cda2e7afc85e6b9cb38588cba9dab23eb6eb3d46) is of a grey rectangle.  As the image opens withot errors and doesnt look corrupt it seems likely that it is a data section not dispalying.
 
 Looking at the jpeg spec each marker is prefixed with 0xFF and when there is a 0xFF in the data segment it needs to be followed with 0x00.
 
