@@ -10,6 +10,8 @@ Using a hex editor I searched for all instances of 0xFF and checked that the fol
 
 At offset 0x26f there is a marker that is 0xFC which is not valid.
 
+[screenshot](screenshot.png)
+
 The previous marker is a 'Start of Scan' (0xDA) and the one following is a piece of data (0x00) so this look like it should be data aswell.
 
 Changing the byte 0xFC to 0x00 and saving the file makes the flag visible.
