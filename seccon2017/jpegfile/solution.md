@@ -1,6 +1,6 @@
 ### JPEG File
 
-The image is of a grey rectangle.  As the image opens withot erorrs and doesnt look corrupt it seems likely that is is a data section not dispalying.
+The image is of a grey rectangle.  As the image opens withot errors and doesnt look corrupt it seems likely that is is a data section not dispalying.
 
 Looking at the jpeg spec each marker is prefixed with 0xFF and when there is a 0xFF in the data segment it needs to be followed with 0x00.
 
