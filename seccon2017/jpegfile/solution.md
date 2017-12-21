@@ -1,4 +1,4 @@
-write up ### JPEG File
+### JPEG File
 
 The [image](tktk-892009a0993d079214efa167cda2e7afc85e6b9cb38588cba9dab23eb6eb3d46)  is of a grey rectangle.  As the image opens withot errors and doesnt look corrupt it seems likely that it is a data section not dispalying.
 
