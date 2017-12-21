@@ -1,10 +1,10 @@
-### JPEF File
+### JPEG File
 
 The image is of a grey rectangle.  As the image opens withot erorrs and doesnt look corrupt it seems likely that is is a data section not dispalying.
 
 Looking at the jpeg spec each marker is prefixed with 0xFF and when there is a 0xFF in the data segment it needs to be followed with 0x00.
 
-https://en.wikipedia.org/wiki/JPEG#Syntax_and_structureFF
+https://en.wikipedia.org/wiki/JPEG#Syntax_and_structure
 
 Using a hex editor I searched for all instances of 0xFF and checked that the following byte was either a correct jpeg marker or 0x00.
 
