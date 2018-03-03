@@ -13,3 +13,7 @@ Changes:
 17 +  $pass = $conn->real_escape_string($_POST['password']); 
 ```
 
+```
+Service Check Succeeded After Attack
+flag: gigem{cAn_y0U_sQL_TH3_Pr0bL3m?_9f431b}
+```
