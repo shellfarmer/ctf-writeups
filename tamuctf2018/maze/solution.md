@@ -9,3 +9,8 @@ Changes:
 33 -    if (filePath == __dirname)
 33 +	if (filePath == __dirname || filePath.indexOf('flag'))
 ```
+
+```
+Service Check Succeeded After Attack
+flag: gigem{LifES_4_m4ze_37c83f}
+```
