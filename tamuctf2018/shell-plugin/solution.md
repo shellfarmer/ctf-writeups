@@ -19,5 +19,7 @@ Changes:
 20 -  os.system("./change-user-pass.sh " + name + " " + password)
 23 +  os.system("./change-user-pass.sh " + shellquote(name) + " " + shellquote(password))
 ```
-
-
+```
+Service Check Succeeded After Attack
+flag: gigem{gH0s7_in_7h3_Sh3ll_fb63a0}
+```
