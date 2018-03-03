@@ -12,3 +12,7 @@ Changes:
 45 -    index /usr/share/nginx/html/index.html;
 45 +    index index.html;
 ```
+```
+Service Check Succeeded After Attack
+flag: gigem{f1x1N_conF1g5_0533cfc}
+```
